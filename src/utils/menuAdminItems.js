@@ -42,10 +42,6 @@ const menuItems = [
     label: 'Post',
     children: [
       {
-        key: '/admin/post/mis-posts',
-        label: 'Mis Post',
-      },
-      {
         key: '/admin/views/viewPost',
         label: 'Post Visibles',
       },
@@ -100,17 +96,6 @@ const menuItems = [
         key: '/admin/categories/events',
         label: 'Categoria Eventos',
       },
-    ],
-  },
-  {
-    key: '/admin/profesor',
-    icon: <TeamOutlined />, // Icono para representar el equipo o catedráticos
-    label: 'Equipo',
-    children: [
-      {
-        key: '/admin/profesor',
-        label: 'Catedráticos',
-      }
     ],
   },
   {
